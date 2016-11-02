@@ -1,5 +1,10 @@
 class UsersController < ApplicationController
   before_action :authenticate, except: [:login, :create, :index]
+  before_action :set_profile, only: [:update]
+
+  def set_profile
+    @user = User.find(params[:id])
+  end
 
   def create
     user = User.new(user_params)
@@ -32,6 +37,12 @@ class UsersController < ApplicationController
     end
   end
 
+  def update
+    @user.update(user_params)
+
+    render json: {status: 200, user: @user}
+  end
+
 
   private
 
@@ -55,4 +66,8 @@ class UsersController < ApplicationController
   def user_params
     params.required(:user).permit(:username, :password, :email_address)
   end
+
+  # def password_params
+  #   params.required(:user).permit(:password)
+  # end
 end
