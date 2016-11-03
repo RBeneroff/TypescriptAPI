@@ -25,11 +25,12 @@ class FavFontsController < ApplicationController
     FavFont.destroy(params[:id])
 
     render json: {status: 204}
+
   end
 
   private
 
   def fav_fonts_params
-    params.required(:fav_font).permit(:font_family, :subsets, :version, :variant, :font_url)
+    params.required(:fav_font).permit(:font_family, :category, :origin)
   end
 end
