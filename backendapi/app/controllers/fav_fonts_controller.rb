@@ -16,7 +16,9 @@ class FavFontsController < ApplicationController
   end
 
   def index
+    fonts = FavFont.all
 
+    render json: {status: 200, fonts: fonts}
   end
 
   def destory
