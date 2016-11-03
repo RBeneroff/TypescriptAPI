@@ -21,8 +21,10 @@ class FavFontsController < ApplicationController
     render json: {status: 200, fonts: fonts}
   end
 
-  def destory
-    fonts
+  def destroy
+    FavFont.destroy(params[:id])
+
+    render json: {status: 204}
   end
 
   private
