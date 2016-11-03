@@ -22,7 +22,7 @@ class FavFontsController < ApplicationController
   end
 
   def destory
-
+    fonts
   end
 
   private
