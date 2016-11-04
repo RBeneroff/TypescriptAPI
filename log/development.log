@@ -5666,6 +5666,7 @@ Completed 200 OK in 554ms (Views: 0.3ms | ActiveRecord: 1.6ms)
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Started POST "/users/login" for ::1 at 2016-11-04 09:24:02 -0400
   [1m[36mActiveRecord::SchemaMigration Load (7.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by UsersController#login as HTML
@@ -5854,6 +5855,8 @@ Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 3.5ms)
 
 Started GET "/users" for ::1 at 2016-11-04 10:40:01 -0400
 =======
+=======
+>>>>>>> d7cd939782a47f0cfcc70cec9faebd4b4fe24fb5
 Started GET "/" for ::1 at 2016-11-04 11:31:32 -0500
   [1m[36mActiveRecord::SchemaMigration Load (3.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by Rails::WelcomeController#index as HTML
@@ -5937,13 +5940,1300 @@ Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/users" for ::1 at 2016-11-04 11:33:40 -0500
+<<<<<<< HEAD
 >>>>>>> fb50b66f9598c7c54ba4959ced3ca69504ac5a8d
+=======
+>>>>>>> d7cd939782a47f0cfcc70cec9faebd4b4fe24fb5
 Processing by UsersController#index as HTML
   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
 Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+Started GET "/users" for ::1 at 2016-11-04 10:40:56 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:41:03 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 14ms (Views: 3.4ms | ActiveRecord: 1.4ms)
+=======
+Started POST "/users/login" for ::1 at 2016-11-04 11:33:44 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 84ms (Views: 0.8ms | ActiveRecord: 0.5ms)
+>>>>>>> d7cd939782a47f0cfcc70cec9faebd4b4fe24fb5
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:33:44 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:33:47 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (10.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 69ms (Views: 4.9ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:36:23 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 11:36:28 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 86ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:36:28 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:54 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 8ms (Views: 2.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:57 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:57 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 10ms (Views: 2.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:58 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:58 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:38:03 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 11:38:10 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 83ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:38:10 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:14 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:22 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:22 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 1.4ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started POST "/users/login" for ::1 at 2016-11-04 11:42:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 120ms (Views: 0.8ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:42:16 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:42:20 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:45:39 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 11:46:16 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 96ms (Views: 0.6ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 11:46:25 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Aclonica", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "fav_fonts" WHERE "fav_fonts"."font_family" = $1 LIMIT $2[0m  [["font_family", "Aclonica"], ["LIMIT", 1]]
+  [1m[35mSQL (11.0ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Aclonica"], ["user_id", 4], ["created_at", 2016-11-04 16:46:25 UTC], ["updated_at", 2016-11-04 16:46:25 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 87ms (Views: 0.2ms | ActiveRecord: 20.1ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 11:46:26 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:46:33 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 32ms (Views: 5.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:49:07 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 33ms (Views: 12.9ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 11:49:12 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
+Completed 200 OK in 90ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 11:49:14 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 95ms (Views: 0.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:49:17 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 23ms (Views: 10.4ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:50:47 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 37ms (Views: 14.1ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 11:50:52 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 97ms (Views: 0.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/allfonts" for ::1 at 2016-11-04 11:50:58 -0500
+Processing by UsersController#allfonts as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
+Completed 200 OK in 27ms (Views: 11.1ms | ActiveRecord: 5.5ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Started GET "/users" for ::1 at 2016-11-04 12:03:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 47ms (Views: 10.2ms | ActiveRecord: 11.5ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 12:03:18 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 131ms (Views: 3.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:03:23 -0500
+  
+SyntaxError (/Users/AYblood/Desktop/Proj4/TypescriptAPI/app/controllers/fav_fonts_controller.rb:48: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/fav_fonts_controller.rb:48: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:03:56 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (2.0ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 33ms (Views: 0.4ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 12:07:22 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 31ms (Views: 15.7ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 12:07:27 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 12:07:30 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
+Completed 200 OK in 86ms (Views: 0.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 12:07:32 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 87ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:07:36 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:07:37 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:07:38 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 12:08:02 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 12:08:06 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 88ms (Views: 1.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:12 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:12 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:12 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:13 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:13 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 12:08:35 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:37 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 12:09:01 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:09:03 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 12:11:25 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 12:11:30 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 89ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:11:34 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 13:44:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (3.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (7.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 63ms (Views: 9.4ms | ActiveRecord: 33.0ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 13:44:58 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"tesst5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "tesst5"], ["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 13:45:01 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 87ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 13:45:07 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (3.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 12.5ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/fav_fonts_controller.rb:35:in `[]'
+app/controllers/fav_fonts_controller.rb:35:in `block in allfonts'
+app/controllers/fav_fonts_controller.rb:34:in `allfonts'
+Started GET "/users" for ::1 at 2016-11-04 13:46:32 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 29ms (Views: 14.8ms | ActiveRecord: 7.0ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 13:46:39 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 87ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 13:46:42 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 4.7ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/fav_fonts_controller.rb:36:in `block in allfonts'
+app/controllers/fav_fonts_controller.rb:34:in `allfonts'
+  [1m[36mFavFont Load (1.1ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+  [1m[36mFavFont Load (0.9ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+  [1m[36mFavFont Load (0.7ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 13:58:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"ABeeZee", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "fav_fonts" WHERE "fav_fonts"."font_family" = $1 LIMIT $2[0m  [["font_family", "ABeeZee"], ["LIMIT", 1]]
+  [1m[35mSQL (9.0ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "ABeeZee"], ["user_id", 4], ["created_at", 2016-11-04 18:58:45 UTC], ["updated_at", 2016-11-04 18:58:45 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 118ms (Views: 0.4ms | ActiveRecord: 31.6ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 13:58:46 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 1.3ms)
+
+
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Started POST "/users/login" for ::1 at 2016-11-04 14:02:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 112ms (Views: 1.6ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 14:02:44 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 14:02:45 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.7ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 14:38:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 53ms (Views: 13.5ms | ActiveRecord: 8.6ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:39:03 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 122ms (Views: 1.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 14:39:08 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 23ms (Views: 10.2ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 14:40:57 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:41:00 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 86ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 14:41:03 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for ::1 at 2016-11-04 14:41:59 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email_address"=>"aslkdhlkashdkjh@gmail.com", "username"=>"test6", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test6"], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email_address" = $1 LIMIT $2[0m  [["email_address", "aslkdhlkashdkjh@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (3.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "email_address", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "test6"], ["email_address", "aslkdhlkashdkjh@gmail.com"], ["created_at", 2016-11-04 19:41:59 UTC], ["updated_at", 2016-11-04 19:41:59 UTC], ["password_digest", "$2a$10$YcKH3qDr.EE.JREwO.fuD./4FuH/z55VFqRqjHixBQGjC1dFoHQhO"]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 148ms (Views: 0.2ms | ActiveRecord: 7.6ms)
+
+
+Started POST "/users" for ::1 at 2016-11-04 14:42:00 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email_address"=>"aslkdhlkashdkjh@gmail.com", "username"=>"test6", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test6"], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email_address" = $1 LIMIT $2[0m  [["email_address", "aslkdhlkashdkjh@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 200 OK in 1009ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:42:03 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test6", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test6"], ["LIMIT", 1]]
+Completed 200 OK in 89ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/5/fav_fonts" for ::1 at 2016-11-04 14:42:21 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Aclonica", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mFavFont Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "fav_fonts" WHERE "fav_fonts"."font_family" = $1 LIMIT $2[0m  [["font_family", "Aclonica"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 200 OK in 38ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 14:42:25 -0500
+Processing by FavFontsController#allfonts as HTML
+  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/5/fav_fonts" for ::1 at 2016-11-04 14:42:50 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"5"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:43:29 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test7", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test7"], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/users" for ::1 at 2016-11-04 14:43:37 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email_address"=>"oiasdjflkajdsfk@gmx.com", "username"=>"test7", "password"=>"[FILTERED]"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test7"], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email_address" = $1 LIMIT $2[0m  [["email_address", "oiasdjflkajdsfk@gmx.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "email_address", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "test7"], ["email_address", "oiasdjflkajdsfk@gmx.com"], ["created_at", 2016-11-04 19:43:37 UTC], ["updated_at", 2016-11-04 19:43:37 UTC], ["password_digest", "$2a$10$sbCKje0tM4pni3itn9IwfOpmZtRkLWjeAraw6VpwTKJPwsnuJq5Py"]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 144ms (Views: 0.2ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:43:41 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test7", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test7"], ["LIMIT", 1]]
+Completed 200 OK in 99ms (Views: 0.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:43:42 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 14:46:52 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 29ms (Views: 15.3ms | ActiveRecord: 6.8ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:46:56 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test7", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test7"], ["LIMIT", 1]]
+Completed 200 OK in 113ms (Views: 0.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/users/6/fav_fonts" for ::1 at 2016-11-04 14:47:01 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Acme", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"6"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Acme"], ["user_id", 6], ["created_at", 2016-11-04 19:47:01 UTC], ["updated_at", 2016-11-04 19:47:01 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 40ms (Views: 0.3ms | ActiveRecord: 12.1ms)
+
+
+Started POST "/users/6/fav_fonts" for ::1 at 2016-11-04 14:47:01 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Acme", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Acme"], ["user_id", 6], ["created_at", 2016-11-04 19:47:01 UTC], ["updated_at", 2016-11-04 19:47:01 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/users/6/fav_fonts" for ::1 at 2016-11-04 14:47:01 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Acme", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"6"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Acme"], ["user_id", 6], ["created_at", 2016-11-04 19:47:01 UTC], ["updated_at", 2016-11-04 19:47:01 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/users/6/fav_fonts" for ::1 at 2016-11-04 14:47:02 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Acme", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Acme"], ["user_id", 6], ["created_at", 2016-11-04 19:47:02 UTC], ["updated_at", 2016-11-04 19:47:02 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/users/6/fav_fonts" for ::1 at 2016-11-04 14:47:02 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Acme", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Acme"], ["user_id", 6], ["created_at", 2016-11-04 19:47:02 UTC], ["updated_at", 2016-11-04 19:47:02 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:47:03 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/6/fav_fonts/3" for ::1 at 2016-11-04 14:49:40 -0500
+Processing by FavFontsController#destroy as HTML
+  Parameters: {"user_id"=>"6", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT  "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[31mDELETE FROM "fav_fonts" WHERE "fav_fonts"."id" = $1[0m  [["id", 3]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 6.0ms)
+
+
+Started DELETE "/users/6/fav_fonts/1" for ::1 at 2016-11-04 14:49:42 -0500
+Processing by FavFontsController#destroy as HTML
+  Parameters: {"user_id"=>"6", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT  "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "fav_fonts" WHERE "fav_fonts"."id" = $1[0m  [["id", 1]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 5.5ms)
+
+
+Started DELETE "/users/6/fav_fonts/2" for ::1 at 2016-11-04 14:49:42 -0500
+Processing by FavFontsController#destroy as HTML
+  Parameters: {"user_id"=>"6", "id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.0ms)[0m  [1m[34mSELECT  "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "fav_fonts" WHERE "fav_fonts"."id" = $1[0m  [["id", 2]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 4.8ms)
+
+
+Started DELETE "/users/6/fav_fonts/4" for ::1 at 2016-11-04 14:49:43 -0500
+Processing by FavFontsController#destroy as HTML
+  Parameters: {"user_id"=>"6", "id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.7ms)[0m  [1m[34mSELECT  "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[31mDELETE FROM "fav_fonts" WHERE "fav_fonts"."id" = $1[0m  [["id", 4]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 8.5ms)
+
+
+Started DELETE "/users/6/fav_fonts/5" for ::1 at 2016-11-04 14:49:44 -0500
+Processing by FavFontsController#destroy as HTML
+  Parameters: {"user_id"=>"6", "id"=>"5"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT  "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "fav_fonts" WHERE "fav_fonts"."id" = $1[0m  [["id", 5]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.7ms | ActiveRecord: 5.3ms)
+
+
+Started DELETE "/users/6/fav_fonts/6" for ::1 at 2016-11-04 14:49:44 -0500
+Processing by FavFontsController#destroy as HTML
+  Parameters: {"user_id"=>"6", "id"=>"6"}
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.7ms)[0m  [1m[34mSELECT  "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM "fav_fonts" WHERE "fav_fonts"."id" = $1[0m  [["id", 6]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 7.2ms)
+
+
+Started DELETE "/users/6/fav_fonts/7" for ::1 at 2016-11-04 14:49:45 -0500
+Processing by FavFontsController#destroy as HTML
+  Parameters: {"user_id"=>"6", "id"=>"7"}
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.1ms)[0m  [1m[34mSELECT  "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (2.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.1ms)[0m  [1m[31mDELETE FROM "fav_fonts" WHERE "fav_fonts"."id" = $1[0m  [["id", 7]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:49:45 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:49:48 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:49:49 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:49:50 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:49:50 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:49:51 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.9ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:49:52 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 14:51:48 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:51:53 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test7", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test7"], ["LIMIT", 1]]
+Completed 200 OK in 99ms (Views: 1.7ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users/6/fav_fonts" for ::1 at 2016-11-04 14:51:57 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Actor", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Actor"], ["user_id", 6], ["created_at", 2016-11-04 19:51:57 UTC], ["updated_at", 2016-11-04 19:51:57 UTC], ["category", "sans-serif"], ["origin", "google"]]
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:51:58 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:52:08 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 88ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 14:52:09 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 14:52:24 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.1ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 14:52:25 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.7ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 14:52:25 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 7ms (Views: 2.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 14:52:26 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:52:32 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test7", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test7"], ["LIMIT", 1]]
+Completed 200 OK in 90ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/6/fav_fonts" for ::1 at 2016-11-04 14:52:33 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"6"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.0ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 14:52:56 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 108ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 14:52:59 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Abril Fatface", "category"=>"fantasy", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Abril Fatface"], ["user_id", 4], ["created_at", 2016-11-04 19:52:59 UTC], ["updated_at", 2016-11-04 19:52:59 UTC], ["category", "fantasy"], ["origin", "google"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 14:52:59 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Abril Fatface", "category"=>"fantasy", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Abril Fatface"], ["user_id", 4], ["created_at", 2016-11-04 19:53:00 UTC], ["updated_at", 2016-11-04 19:53:00 UTC], ["category", "fantasy"], ["origin", "google"]]
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 14:53:00 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Abril Fatface", "category"=>"fantasy", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Abril Fatface"], ["user_id", 4], ["created_at", 2016-11-04 19:53:00 UTC], ["updated_at", 2016-11-04 19:53:00 UTC], ["category", "fantasy"], ["origin", "google"]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 14:53:00 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Abril Fatface", "category"=>"fantasy", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Abril Fatface"], ["user_id", 4], ["created_at", 2016-11-04 19:53:00 UTC], ["updated_at", 2016-11-04 19:53:00 UTC], ["category", "fantasy"], ["origin", "google"]]
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 14:53:00 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Abril Fatface", "category"=>"fantasy", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Abril Fatface"], ["user_id", 4], ["created_at", 2016-11-04 19:53:00 UTC], ["updated_at", 2016-11-04 19:53:00 UTC], ["category", "fantasy"], ["origin", "google"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 14:53:00 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Abril Fatface", "category"=>"fantasy", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Abril Fatface"], ["user_id", 4], ["created_at", 2016-11-04 19:53:00 UTC], ["updated_at", 2016-11-04 19:53:00 UTC], ["category", "fantasy"], ["origin", "google"]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 14:53:00 -0500
+Processing by FavFontsController#create as HTML
+  Parameters: {"fav_font"=>{"font_family"=>"Abril Fatface", "category"=>"fantasy", "origin"=>"google"}, "user_id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Abril Fatface"], ["user_id", 4], ["created_at", 2016-11-04 19:53:00 UTC], ["updated_at", 2016-11-04 19:53:00 UTC], ["category", "fantasy"], ["origin", "google"]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 14:53:01 -0500
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.0ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 1.4ms)
+=======
+Started POST "/users/login" for ::1 at 2016-11-04 09:24:02 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (7.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"kelly", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (22.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "kelly"], ["LIMIT", 1]]
+Completed 200 OK in 357ms (Views: 1.2ms | ActiveRecord: 146.2ms)
+
+
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 09:24:11 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (22.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.1ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 88ms (Views: 13.7ms | ActiveRecord: 29.4ms)
+
+
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 09:24:27 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 09:24:28 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/users/1" for ::1 at 2016-11-04 09:24:41 -0400
+Processing by UsersController#update as HTML
+  Parameters: {"pass"=>{"password"=>"[FILTERED]"}, "id"=>"1", "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (19.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (11.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "kelly"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email_address" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["email_address", "kelly@email.com"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (130.9ms)[0m  [1m[33mUPDATE "users" SET "password_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["password_digest", "$2a$10$D1Ob2UZRt3tBSMwr0V3ZV.PNQjEm9bSD8o2nxq1fgLSHwELh1/ihC"], ["updated_at", 2016-11-04 13:24:41 UTC], ["id", 1]]
+  [1m[35m (29.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 334ms (Views: 0.8ms | ActiveRecord: 193.2ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 09:24:59 -0400
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"kelly", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "kelly"], ["LIMIT", 1]]
+Completed 200 OK in 79ms (Views: 0.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-04 10:19:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (18.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"kelly", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (14.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "kelly"], ["LIMIT", 1]]
+Completed 200 OK in 261ms (Views: 1.0ms | ActiveRecord: 55.6ms)
+
+
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 10:19:41 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (17.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.1ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 75ms (Views: 19.3ms | ActiveRecord: 25.8ms)
+
+
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 10:19:42 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:21:42 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/undefined/fav_fonts" for ::1 at 2016-11-04 10:21:46 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"undefined"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 6ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/fav_fonts_controller.rb:5:in `set_profile'
+Started GET "/users/undefined/fav_fonts" for ::1 at 2016-11-04 10:21:47 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"undefined"}
+  [1m[36mUser Load (6.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 9ms (ActiveRecord: 6.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/fav_fonts_controller.rb:5:in `set_profile'
+Started GET "/users" for ::1 at 2016-11-04 10:25:07 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 53ms (Views: 45.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:25:39 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:28:12 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 36ms (Views: 29.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:28:32 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/users/undefined/fav_fonts" for ::1 at 2016-11-04 10:30:37 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"undefined"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 23ms (ActiveRecord: 1.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/fav_fonts_controller.rb:5:in `set_profile'
+Started GET "/users" for ::1 at 2016-11-04 10:32:56 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 96ms (Views: 37.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:33:24 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:33:29 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:33:59 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:34:14 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:37:22 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 33ms (Views: 15.9ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:38:27 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (5.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:39:21 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 10:40:01 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
 Started GET "/users" for ::1 at 2016-11-04 10:40:56 -0400
 Processing by UsersController#index as HTML
   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
@@ -7070,9 +8360,43 @@ Completed 200 OK in 10ms (Views: 4.9ms | ActiveRecord: 2.6ms)
 Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:27:55 -0400
 Processing by FavFontsController#index as HTML
   Parameters: {"user_id"=>"1"}
+<<<<<<< HEAD
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:50:10 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.1ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 55ms (Views: 21.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:50:10 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 1.0ms)
+=======
+Started POST "/users/login" for ::1 at 2016-11-04 11:33:44 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
+Completed 200 OK in 84ms (Views: 0.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for ::1 at 2016-11-04 11:33:44 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.6ms)
+=======
   [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
   [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
 Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 1.6ms)
+>>>>>>> d7cd939782a47f0cfcc70cec9faebd4b4fe24fb5
 
 
 Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:27:59 -0400
@@ -7460,477 +8784,7 @@ Processing by FavFontsController#index as HTML
 Completed 200 OK in 8ms (Views: 3.6ms | ActiveRecord: 1.8ms)
 
 
-Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:47:50 -0400
-Processing by FavFontsController#index as HTML
-  Parameters: {"user_id"=>"1"}
-  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
-  [1m[36mFavFont Load (1.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 3.0ms)
-
-
-Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:50:10 -0400
-Processing by FavFontsController#index as HTML
-  Parameters: {"user_id"=>"1"}
-  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
-  [1m[36mFavFont Load (1.1ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 55ms (Views: 21.5ms | ActiveRecord: 2.3ms)
-
-
-Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:50:10 -0400
-Processing by FavFontsController#index as HTML
-  Parameters: {"user_id"=>"1"}
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
-  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 1.0ms)
-=======
-Started POST "/users/login" for ::1 at 2016-11-04 11:33:44 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 84ms (Views: 0.8ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:33:44 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:33:47 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (10.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 69ms (Views: 4.9ms | ActiveRecord: 14.2ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:36:23 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.8ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 11:36:28 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 86ms (Views: 0.5ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:36:28 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:54 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 8ms (Views: 2.8ms | ActiveRecord: 1.5ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:57 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 1.2ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:57 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 10ms (Views: 2.7ms | ActiveRecord: 2.8ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:58 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 1.3ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:36:58 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 1.2ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:38:03 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 11:38:10 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 83ms (Views: 0.4ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:38:10 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:14 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 1.8ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 1.3ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 1.4ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 1.3ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:21 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 1.5ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:22 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 1.7ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:38:22 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 1.4ms)
-
-
-  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Started POST "/users/login" for ::1 at 2016-11-04 11:42:14 -0500
-  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 120ms (Views: 0.8ms | ActiveRecord: 10.0ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:42:16 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.5ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:42:20 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:45:39 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 11:46:16 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 96ms (Views: 0.6ms | ActiveRecord: 1.3ms)
-
-
-Started POST "/users/4/fav_fonts" for ::1 at 2016-11-04 11:46:25 -0500
-Processing by FavFontsController#create as HTML
-  Parameters: {"fav_font"=>{"font_family"=>"Aclonica", "category"=>"sans-serif", "origin"=>"google"}, "user_id"=>"4"}
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
-  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
-  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
-  [1m[36mFavFont Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "fav_fonts" WHERE "fav_fonts"."font_family" = $1 LIMIT $2[0m  [["font_family", "Aclonica"], ["LIMIT", 1]]
-  [1m[35mSQL (11.0ms)[0m  [1m[32mINSERT INTO "fav_fonts" ("font_family", "user_id", "created_at", "updated_at", "category", "origin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["font_family", "Aclonica"], ["user_id", 4], ["created_at", 2016-11-04 16:46:25 UTC], ["updated_at", 2016-11-04 16:46:25 UTC], ["category", "sans-serif"], ["origin", "google"]]
-  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
-Completed 200 OK in 87ms (Views: 0.2ms | ActiveRecord: 20.1ms)
-
-
-Started GET "/users/4/fav_fonts" for ::1 at 2016-11-04 11:46:26 -0500
-Processing by FavFontsController#index as HTML
-  Parameters: {"user_id"=>"4"}
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
-  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.2ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:46:33 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 32ms (Views: 5.1ms | ActiveRecord: 2.3ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:49:07 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 33ms (Views: 12.9ms | ActiveRecord: 5.9ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 11:49:12 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
-Completed 200 OK in 90ms (Views: 0.2ms | ActiveRecord: 0.5ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 11:49:14 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 95ms (Views: 0.5ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:49:17 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 23ms (Views: 10.4ms | ActiveRecord: 4.9ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 11:50:47 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 37ms (Views: 14.1ms | ActiveRecord: 7.7ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 11:50:52 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 97ms (Views: 0.8ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/users/allfonts" for ::1 at 2016-11-04 11:50:58 -0500
-Processing by UsersController#allfonts as HTML
-  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 2]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 3]]
-  [1m[36mFavFont Load (0.2ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 4]]
-Completed 200 OK in 27ms (Views: 11.1ms | ActiveRecord: 5.5ms)
-
-
-  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
-  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Started GET "/users" for ::1 at 2016-11-04 12:03:14 -0500
-  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 47ms (Views: 10.2ms | ActiveRecord: 11.5ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 12:03:18 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 131ms (Views: 3.4ms | ActiveRecord: 1.0ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:03:23 -0500
-  
-SyntaxError (/Users/AYblood/Desktop/Proj4/TypescriptAPI/app/controllers/fav_fonts_controller.rb:48: syntax error, unexpected keyword_end, expecting end-of-input):
-  
-app/controllers/fav_fonts_controller.rb:48: syntax error, unexpected keyword_end, expecting end-of-input
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:03:56 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (2.0ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 33ms (Views: 0.4ms | ActiveRecord: 7.7ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 12:07:22 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 31ms (Views: 15.7ms | ActiveRecord: 5.7ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 12:07:27 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
-Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.5ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 12:07:30 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
-Completed 200 OK in 86ms (Views: 0.4ms | ActiveRecord: 0.5ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 12:07:32 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 87ms (Views: 0.6ms | ActiveRecord: 0.3ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:07:36 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:07:37 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:07:38 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 12:08:02 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.6ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 12:08:06 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 88ms (Views: 1.2ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:12 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:12 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:12 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.4ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:13 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:13 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 12:08:35 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:08:37 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.5ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 12:09:01 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:09:03 -0500
-Processing by FavFontsController#allfonts as HTML
-  [1m[36mFavFont Load (0.6ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
-Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/users" for ::1 at 2016-11-04 12:11:25 -0500
-Processing by UsersController#index as HTML
-  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
-Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
-
-
-Started POST "/users/login" for ::1 at 2016-11-04 12:11:30 -0500
-Processing by UsersController#login as HTML
-  Parameters: {"user"=>{"username"=>"test5", "password"=>"[FILTERED]"}}
-  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test5"], ["LIMIT", 1]]
-Completed 200 OK in 89ms (Views: 1.9ms | ActiveRecord: 0.3ms)
-
-
+<<<<<<< HEAD
 Started GET "/fav_fonts/allfonts" for ::1 at 2016-11-04 12:11:34 -0500
 Processing by FavFontsController#allfonts as HTML
   [1m[36mFavFont Load (0.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
@@ -8465,5 +9319,14 @@ Processing by FavFontsController#index as HTML
   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
   [1m[36mFavFont Load (1.3ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts" WHERE "fav_fonts"."user_id" = $1[0m  [["user_id", 1]]
 Completed 200 OK in 113ms (Views: 33.4ms | ActiveRecord: 8.7ms)
+=======
+Started GET "/users/1/fav_fonts" for ::1 at 2016-11-04 12:47:50 -0400
+Processing by FavFontsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavFont Load (1.8ms)[0m  [1m[34mSELECT "fav_fonts".* FROM "fav_fonts"[0m
+Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 3.0ms)
+>>>>>>> 3adbff8105a5cbc2dd75fef941043e82327b0a12
+>>>>>>> d7cd939782a47f0cfcc70cec9faebd4b4fe24fb5
 
 
