@@ -16,15 +16,16 @@ class FavFontsController < ApplicationController
   end
 
   def index
-    fonts = FavFont.all
+    fonts = @user.fav_fonts
 
     render json: {status: 200, fonts: fonts}
   end
 
   def destroy
     FavFont.destroy(params[:id])
+    font = FavFont.find(params[:id])
 
-    render json: {status: 204}
+    render json: {status: 204, font: font}
 
   end
 
