@@ -28,6 +28,17 @@ class FavFontsController < ApplicationController
 
   end
 
+  def allfonts
+    topass = {}
+    y = 0
+    FavFont.all.each do |x|
+      fontobject = {user: x.user_id, name: x.font_family}
+      topass[y] = fontobject
+      y += 1
+    end
+    render json: {status: 200, fonts: topass}
+  end
+
   private
 
   def fav_fonts_params
