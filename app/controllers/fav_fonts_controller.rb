@@ -32,8 +32,8 @@ class FavFontsController < ApplicationController
     topass = {}
     y = 0
     FavFont.all.each do |x|
-      fontobject = {user: x.user_id, name: x.font_family}
-      topass[y] = fontobject
+      hash = {id: x.user_id, name: x.font_family}
+      topass.merge!(y => hash)
       y += 1
     end
     render json: {status: 200, fonts: topass}
