@@ -38,8 +38,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    if
-      @user.update(pass_params)
+    if @user.update(pass_params)
       render json: {status: 200, user: @user}
     else
       render json: {status: 204, message: @user.errors}
