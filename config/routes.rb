@@ -7,6 +7,11 @@ Rails.application.routes.draw do
       post '/login', to: 'users#login'
     end
   end
+  resources :fav_fonts, only: [:allfonts] do
+    collection do
+      get 'allfonts'
+    end
+  end
 
   # resources :fav_fonts, only: [:create, :show, :destroy]
 end
