@@ -9330,3 +9330,61 @@ Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 3.0ms)
 >>>>>>> d7cd939782a47f0cfcc70cec9faebd4b4fe24fb5
 
 
+Started GET "/users" for ::1 at 2016-11-06 12:38:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 28ms (Views: 11.8ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/users" for ::1 at 2016-11-06 12:39:52 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2016-11-06 12:40:03 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2016-11-06 12:40:05 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for ::1 at 2016-11-06 12:40:07 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for ::1 at 2016-11-06 12:40:09 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-06 12:41:25 -0600
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-06 12:41:27 -0600
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test"], ["LIMIT", 1]]
+Completed 200 OK in 83ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/login" for ::1 at 2016-11-06 12:41:30 -0600
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"test1", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "test1"], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
